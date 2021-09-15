@@ -4,5 +4,5 @@
 body::before {
   display: block;
   content: '';
-  height: 4.5rem;
+  height: 72px;
 }

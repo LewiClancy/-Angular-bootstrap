@@ -9,6 +9,9 @@ import { NewsletterComponent } from './newsletter/newsletter.component';
 import { BoxesComponent } from './boxes/boxes.component';
 import { LearnComponent } from './learn/learn.component';
 import { AccordianComponent } from './accordian/accordian.component';
+import { InstructorsComponent } from './instructors/instructors.component';
+import { FooterComponent } from './footer/footer.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -19,7 +22,9 @@ import { AccordianComponent } from './accordian/accordian.component';
     NewsletterComponent,
     BoxesComponent,
     LearnComponent,
-    AccordianComponent
+    AccordianComponent,
+    InstructorsComponent,
+    FooterComponent, ModalComponent
   ],
   bootstrap: [AppComponent]
 })
